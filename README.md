@@ -119,7 +119,14 @@ In this example, there are two hosts. The first host, `mywebsite.com`, will
 always have its IP updated, even if it has not changed. The second host,
 `myotherwebsite.com`, will only have its IP updated if it has changed.
 
-Sure, here's a draft for the License section of your README file:
+## TODO
+
+- **Integration of Cloudflare Script**: Currently, the program has a separate
+script for handling IP updates for domains hosted on Cloudflare. The goal is to
+integrate this script into the main program, allowing it to handle IP updates
+for both OVH and Cloudflare from a single script. This will improve the
+program's flexibility and make it easier to manage multiple domains across
+different DNS providers.
 
 ## License
 
